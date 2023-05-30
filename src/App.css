@@ -1,0 +1,118 @@
+.container {
+  height: 100vh;
+  padding: 55px;
+}
+.company-details {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 100px;
+  margin-right: 20px;
+}
+.company-address {
+  margin-top: -18px;
+  text-align: right;
+}
+
+@media screen and (max-width: 512px) {
+  .company-address {
+    margin-top: -20px;
+  }
+}
+.addInfo {
+  margin-top: -15px;
+  font-size: 16px;
+  font-family: "Helvetica";
+}
+.line {
+  color: #000;
+  border: solid 1px #000;
+  width: 100%;
+  margin-top: 35px;
+}
+.form-container {
+  width: "100vw";
+  display: flex;
+  flex-direction: column;
+}
+.main-img-tag {
+  font-size: 20px;
+  font-family: "Helvetica";
+  color: #000;
+  letter-spacing: 2px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-top: 25px;
+  margin-left: 13px;
+}
+.label {
+  font-family: "Helvetica";
+  margin-left: -10px;
+  letter-spacing: 1.3px;
+  font-size: 20px;
+}
+.input {
+  padding: 10px;
+  height: 25px;
+  margin: 10px;
+  font-size: 20px;
+  width: 100%;
+  margin-left: -10px;
+  margin-bottom: 20px;
+  font-family: "Helvetica";
+  background-color: #d8dbd6;
+  border: none;
+}
+.details {
+  height: 100px;
+  width: "100%";
+  padding: 10px;
+  margin-left: 12px;
+  font-family: "Helvetica";
+  margin-left: -10px !important;
+  margin-top: 13px;
+  font-size: 20px;
+  border: none;
+  background-color: #d8dbd6;
+}
+
+.download_btn {
+  height: 35px;
+  background-color: #c99b3b;
+  border: none;
+  border-radius: 2px;
+  margin-top: 15px;
+
+  text-align: center;
+  width: 140px;
+  margin-bottom: 50px;
+}
+
+.download_link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Helvetica";
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 612px) {
+  .details {
+    margin-left: 12px;
+  }
+  .form-container {
+    margin-left: 50px;
+  }
+  .download_btn {
+    margin-left: 60px;
+  }
+}
